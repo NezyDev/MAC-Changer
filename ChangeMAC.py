@@ -19,8 +19,6 @@ def change_mac(interface, mac_address):
 
 
 def generate_mac():
-    mac = "00:00:00:00:00:00"
-
     fir = random.randint(10, 90)
     sec = random.randint(10, 90)
     third = random.randint(10, 90)
